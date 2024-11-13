@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Product Landing Paget</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+                <img src="logo-image.png" alt="logo" id="header-img">
+                <span class="the-product">Alienware </span>
+            </div>
+                <ul class="nav-links">
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#product" class="nav-link">Product</a></li>
+                    <li><a href="#order" class="nav-link">Order Now</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <section id="email-section">
+        <h2>Get updates on our latest products</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input id="email" type="email" required placeholder="Enter your email address" name="email">
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </section>
+    <section id="features">
+        <div class="feature">
+            <i class="ri-cpu-line ri-4x" id="icon"></i></i>
+            <div>
+                <h2>Processors</h2>
+                <p>AMD Ryzen 7 7745HX (up to 5.1GHz, 8 cores/16 threads)</p>
+                <p>AMD Ryzen 9 7845HX (up to 5.2GHz, 12 cores/24 threads)</p>
+                <p>AMD Ryzen 9 7945HX (up to 5.4GHz, 16 cores/32 threads)</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-ram-2-fill ri-4x" id="icon"></i>
+            <div>
+                <h2>Graphics</h2>
+                <p>NVIDIA GeForce RTX options ranging from 4060 (8GB) to 4090 (16GB) with high TGP (Total Graphics Power) for boosted performance.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-ram-line ri-4x" id="icon"></i>
+            <div>
+                <h2>Memory</h2>
+                <p>Options for 16GB, 32GB, or 64GB DDR5 RAM, with speeds up to 5600MHz, allowing for efficient multitasking and gaming.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-hard-drive-2-line ri-4x" id="icon"></i>
+            <div>
+                <h2>Storage</h2>
+                <p>Configurations available from 1TB to 8TB of PCIe Gen 4 NVMe SSD storage, supporting RAID0 for improved read/write speeds in higher configurations.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-computer-line ri-4x" id="icon"></i>
+            <div>
+                <h2>Display</h2>
+                <p>18-inch screen with options for either:</p>
+                <ul>
+                    <li>FHD+ (1920 x 1200) 480Hz, 100% DCI-P3 color coverage</li>
+                    <li>QHD+ (2560 x 1600) 165Hz with G-SYNC for smoother visuals and reduced screen tearing.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-dashboard-2-line ri-4x" id="icon"></i>
+            <div>
+                <h2>Cooling and Design</h2>
+                <p>Redesigned advanced cooling with a vapor chamber to minimize heat during intense tasks. The m18 R2 also has user-upgradeable RAM and storage, providing flexibility for future upgrades</p>
+            </div>
+        </div>
+    </section>
+    <section id="product">
+    <iframe
+        id="video"
+        height="400" 
+        src="https://www.youtube.com/embed/4l1Gkz3BRmM?si=LoLsGAiOk-CMS8B8" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+</section>
+
+    <section id="order">
+        <h2 class="title-product">Order Now</h2>
+        <div class="product-cards">
+            <div class="cards">
+                <div class="product-image product1"></div>
+                <div class="inner-card">
+                    <div class="variant">Alienware</div>
+                    <h1 class="header">M18 R2</h1>
+                    <p class="content">The Alienware m18 AMD edition is a powerhouse laptop, blending AMD Ryzen 9 processing with NVIDIA or AMD graphics for exceptional gaming and multitasking. With an 18" QHD+ display at up to 480Hz, up to 64GB DDR5 RAM, and up to 8TB storage, it’s perfect for gamers and creators seeking peak performance in a sleek, durable design.</p>
+                    <div class="flex">
+                        <p class="main-price">$2,699.99</p>
+                        <pc class="old-price">$2,999.99</p>
+                    </div>
+                    <button class="add">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
